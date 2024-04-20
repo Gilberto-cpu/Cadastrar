@@ -1,0 +1,1 @@
+Este projeto é uma interface simples de cadastro de clientes, que ao colocar o ano de nascimento, a aplicação soma a idade atual e com isso, o sistema vai saber se a idade é compativel para obter a carterinha de usuário.
