@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <title>Gerenciador de Clientes</title>
+</head>
+<body>
+    <div class="container">
+        <div id="cadastro">
+            <h2>Gerenciador de Clientes</h2>
+        </div>
+        <div id="fild">
+            <fieldset>
+                <div id="box">
+                    <input type="text" id="ano" required placeholder="ANO">
+                    <button onclick="adicionarCliente()" id="btn">Incluir Cliente</button>
+                    <input type="text" placeholder="ID" id="resAno">
+                    <button onclick="excluirSelecionados()">Excluir</button>
+                    <input type="text" id="nomeCliente" placeholder="Digite o nome do cliente" onclick="mudarCor(this)">
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div id="cx">
+        <div id="foto">
+            <img class="src" id="flor">
+        </div>
+    </div>
+    <div id="lc">
+        <div id="listaClientes"></div>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>
